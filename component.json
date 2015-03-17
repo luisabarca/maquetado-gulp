@@ -1,5 +1,5 @@
 {
-    "name": "Maquetado Gulp",
+    "name": "maquetado-gulp",
     "version": "1.0.0",
     "dependencies": {
         "jquery": ">=1.7.2"
