@@ -14,10 +14,10 @@ Instrucciones
 ----------------
 
 - Instala npm (https://nodejs.org/download/)
-- Instala gulp de forma global
+- Instala paquetes necesarios
 
 ``` 
-$ npm install --global gulp
+$ npm install
 ```
 
 ----------

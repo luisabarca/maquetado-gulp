@@ -7,13 +7,18 @@
         "email": "luisabarca@gmail.com",
         "url": "http://luisabarca.com"
     },
+    "license": "MIT",
     "dependencies": {
-        "gulp": ">=3.8.11",
-        "gulp-less": ">=3.0.1",
-        "gulp-minify-css": ">=0.10",
-        "gulp-livereload": ">=3.8.0",
-        "gulp-watch": ">=4.2.0",
-        "browser-sync": ">=2.3.1",
-        "gulp-jshint": ">=1.9.2"
+        "bower": "^1.3.12",
+        "gulp": "^3.8.11",
+        "gulp-less": "^3.0.1",
+        "gulp-minify-css": "^0.10",
+        "gulp-livereload": "^3.8.0",
+        "gulp-watch": "^4.2.0",
+        "browser-sync": "^2.3.1",
+        "gulp-jshint": "^1.9.2"
+    },
+    "scripts": {
+        "postinstall": "bower cache clean && bower install"
     }
 }
